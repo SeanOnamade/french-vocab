@@ -2,18 +2,23 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import Card from './components/Card';
 import backgroundImage from './assets/IMG_9635.JPG';
+import streetImage from './assets/street.jpg';
+import houseImage from './assets/house.jpg';
+import carImage from './assets/car.jpg';
+import manImage from './assets/man.jpg';
+
 
 const flashcardsData = [
-  { front: "(f) rue", back: "street", color: "blue", imageUrl: "src/assets/street.jpg" },
-  { front: "(f) maison", back: "house", color: "blue", imageUrl: "src/assets/house.jpg" },
+  { front: "(f) rue", back: "street", color: "blue", imageUrl: streetImage },
+  { front: "(f) maison", back: "house", color: "blue", imageUrl: houseImage },
   { front: "grand(e)", back: "big", color: "red"},
   { front: "avoir", back: "to have", color: "green"},
   { front: "petit(e)", back: "small", color: "red"},
   { front: "être", back: "to be", color: "green"},
   { front: "faire", back: "to do", color: "green"},
   { front: "bon(ne)", back: "good", color: "red"},
-  { front: "(f) voiture", back: "car", color: "blue", imageUrl: "src/assets/car.jpg"},
-  { front: "(m) homme", back: "man", color: "blue", imageUrl: "src/assets/man.jpg"}
+  { front: "(f) voiture", back: "car", color: "blue", imageUrl: carImage },
+  { front: "(m) homme", back: "man", color: "blue", imageUrl: manImage }
 ];
 
 const shuffleArr = (array) => {
