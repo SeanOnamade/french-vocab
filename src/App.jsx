@@ -1,6 +1,7 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import Card from './components/Card';
+import backgroundImage from './assets/IMG_9635.JPG';
 
 const flashcardsData = [
   { front: "(f) rue", back: "street", color: "blue", imageUrl: "src/assets/street.jpg" },

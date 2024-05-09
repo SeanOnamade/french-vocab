@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url('src/assets/IMG_9635.JPG');
+  background-image: url('./assets/IMG_9635.JPG');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
